@@ -1,0 +1,29 @@
+Price: 2,500,000 EP
+
+Model: X7 (4.4 A/T Twin Turbo)
+
+Type Of Car: BMW
+
+Make: itali
+
+Year: 2020
+
+Engine power: 360 horse
+
+Engine Capacity: 2996 CC
+
+Transmission type: Automatic
+
+Maximum Speed: 250 Km/h
+
+Maximum Torque: 495 Neotin.M
+
+Fuel Tank Capacity: 104 L
+
+Fuel Type: Petrol
+
+Seats : 5
+
+The Number Of Cylinders: 6
+
+Bag Back: 707 L

@@ -1,0 +1,29 @@
+Price: 675,000 EP
+
+Model: 318i (1.5 A/T Luxury)
+
+Type Of Car: BMW
+
+Make: itali
+
+Year: 2019
+
+Engine power: 136 horse
+
+Engine Capacity: 1499 CC
+
+Transmission type: Automatic
+
+Maximum Speed: 210 Km/h
+
+Maximum Torque: 220 Neotin.M
+
+Fuel Tank Capacity: 60 L
+
+Fuel Type: Petrol
+
+Seats : 5
+
+The Number Of Cylinders: 3
+
+Bag Back: 480 L

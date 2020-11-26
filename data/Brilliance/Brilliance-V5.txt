@@ -1,0 +1,29 @@
+Price: 235,000 EP
+
+Model: V5 (1.6 M/T)
+
+Type Of Car: Brilliance
+
+Make: itali
+
+Year: 2019
+
+Engine power: 118 horse
+
+Engine Capacity: 1600 CC
+
+Transmission type: Hand
+
+Maximum Speed: 165 Km/h
+
+Maximum Torque: 155 Neotin.M
+
+Fuel Tank Capacity: 55 L
+
+Fuel Type: Petrol
+
+Seats : 5
+
+The Number Of Cylinders: 4
+
+Bag Back: 430 L

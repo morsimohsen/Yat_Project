@@ -1,0 +1,29 @@
+Price: 1,350,000 EP
+
+Model: Q7 (2.0 A/T Premium)
+
+Type Of Car: Audi
+
+Make: itali
+
+Year: 2020
+
+Engine power: 252 horse
+
+Engine Capacity: 1995 CC
+
+Transmission type: Steptronic
+
+Maximum Speed: 220 Km/h
+
+Maximum Torque: 370 Neotin.M
+
+Fuel Tank Capacity: 75 L
+
+Fuel Type: Petrol
+
+Seats : 5
+
+The Number Of Cylinders: 4
+
+Bag Back: 750 L

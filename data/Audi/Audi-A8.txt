@@ -1,0 +1,29 @@
+Price: 3,350,000 EP
+
+Model: A8 (3.0 F/O A/T)
+
+Type Of Car: Audi
+
+Make: itali
+
+Year: 2020
+
+Engine power: 240 horse
+
+Engine Capacity: 3000 CC
+
+Transmission type: Automatic
+
+Maximum Speed: 220 Km/h
+
+Maximum Torque: 428 Neotin.M
+
+Fuel Tank Capacity: 55 L
+
+Fuel Type: Petrol
+
+Seats : 5
+
+The Number Of Cylinders: 6
+
+Bag Back: 400 L

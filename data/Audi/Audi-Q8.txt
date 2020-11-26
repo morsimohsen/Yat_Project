@@ -1,0 +1,29 @@
+Price: 2,000,000 EP
+
+Model: A3 (3.0 F/O A/T)
+
+Type Of Car: Audi
+
+Make: itali
+
+Year: 2020
+
+Engine power: 340 horse
+
+Engine Capacity: 2995 CC
+
+Transmission type: Steptronic
+
+Maximum Speed: 245 Km/h
+
+Maximum Torque: 500 Neotin.M
+
+Fuel Tank Capacity: 85 L
+
+Fuel Type: Petrol
+
+Seats : 5
+
+The Number Of Cylinders: 6
+
+Bag Back: 775 L

@@ -1,0 +1,29 @@
+Price: 1,195,000 EP
+
+Model: Z4 (2.0 A/T M-Sport Roadster)
+
+Type Of Car: BMW
+
+Make: itali
+
+Year: 2020
+
+Engine power: 197 horse
+
+Engine Capacity: 1998 CC
+
+Transmission type: Automatic
+
+Maximum Speed: 240 Km/h
+
+Maximum Torque: 320 Neotin.M
+
+Fuel Tank Capacity: 68 L
+
+Fuel Type: Petrol
+
+Seats : 2
+
+The Number Of Cylinders: 4
+
+Bag Back: 220 L

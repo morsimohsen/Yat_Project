@@ -1,0 +1,29 @@
+Price: 2,075,000 EP
+
+Model: X5 (4.4 F/O A/T M50i)
+
+Type Of Car: BMW
+
+Make: itali
+
+Year: 2020
+
+Engine power: 530 horse
+
+Engine Capacity: 4395 CC
+
+Transmission type: Automatic
+
+Maximum Speed: 250 Km/h
+
+Maximum Torque: 750 Neotin.M
+
+Fuel Tank Capacity: 85 L
+
+Fuel Type: Petrol
+
+Seats : 5
+
+The Number Of Cylinders: 8
+
+Bag Back: 650 L

@@ -1,0 +1,29 @@
+Price: 163,000 EP
+
+Model: F3 (1.5 M/T)
+
+Type Of Car: BYD
+
+Make: itali
+
+Year: 2020
+
+Engine power: 108 horse
+
+Engine Capacity: 1500 CC
+
+Transmission type: handly
+
+Maximum Speed: 180 Km/h
+
+Maximum Torque: 145 Neotin.M
+
+Fuel Tank Capacity: 50 L
+
+Fuel Type: Petrol
+
+Seats : 5
+
+The Number Of Cylinders: 4
+
+Bag Back: 360 L

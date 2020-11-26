@@ -1,0 +1,29 @@
+Price: 530,000 EP
+
+Model: A3 (1.0 A/T Sedan Prestige)
+
+Type Of Car: Audi
+
+Make: itali
+
+Year: 2020
+
+Engine power: 115 horse
+
+Engine Capacity: 999 CC
+
+Transmission type: automatic
+
+Maximum Speed: 211 Km/h
+
+Maximum Torque: 200 Neotin.M
+
+Fuel Tank Capacity: 50 L
+
+Fuel Type: Petrol
+
+Seats : 5
+
+The Number Of Cylinders: 3
+
+Bag Back: 425 L

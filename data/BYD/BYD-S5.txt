@@ -1,0 +1,29 @@
+Price: 285,000 EP
+
+Model: S5 (1.5 A/T)
+
+Type Of Car: BYD
+
+Make: itali
+
+Year: 2020
+
+Engine power: 156 horse
+
+Engine Capacity: 1497 CC
+
+Transmission type: handly
+
+Maximum Speed: 180 Km/h
+
+Maximum Torque: 240 Neotin.M
+
+Fuel Tank Capacity: 66 L
+
+Fuel Type: Petrol
+
+Seats : 5
+
+The Number Of Cylinders: 4
+
+Bag Back: 400 L

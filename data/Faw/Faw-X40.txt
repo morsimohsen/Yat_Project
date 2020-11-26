@@ -1,0 +1,29 @@
+Price: 285,000 EP
+
+Model: X40 (1.6 A/T Premium)
+
+Type Of Car: Faw
+
+Make: itali
+
+Year: 2019
+
+Engine power: 114 horse
+
+Engine Capacity: 1600 CC
+
+Transmission type: Automatic
+
+Maximum Speed: 169 Km/h
+
+Maximum Torque: 155 Neotin.M
+
+Fuel Tank Capacity: 50 L
+
+Fuel Type: Petrol
+
+Seats : 5
+
+The Number Of Cylinders: 4
+
+Bag Back: 375 L

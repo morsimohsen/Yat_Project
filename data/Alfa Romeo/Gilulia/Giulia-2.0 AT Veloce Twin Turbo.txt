@@ -1,0 +1,29 @@
+Price: 809,000 EP
+
+Model: Giulia 2.0 Veloce A/T Twin Turbo
+
+Type Of Car: Alfa Romeo
+
+Make: itali
+
+Year: 2020
+
+Engine power: 200 horse
+
+Engine Capacity: 2000 CC
+
+Transmission type: automatic
+
+Maximum Speed: 235 Km/h
+
+Maximum Torque: 330 Neotin.M
+
+Fuel Tank Capacity: 70 L
+
+Fuel Type: Petrol
+
+Seats : 5
+
+The Number Of Cylinders: 4
+
+Bag Back: 520 L

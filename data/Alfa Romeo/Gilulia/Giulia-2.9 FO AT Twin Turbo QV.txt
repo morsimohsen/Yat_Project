@@ -1,0 +1,29 @@
+Price: 1,850,000 EP
+
+Model: Giulia 2.9 F/O A/T Twin Turbo QV
+
+Type Of Car: Alfa Romeo
+
+Make: itali
+
+Year: 2020
+
+Engine power: 510 hours
+
+Engine Capacity: 2900 CC
+
+Transmission type: automatic
+
+Maximum Speed: 307 Km/h
+
+Maximum Torque: 600 Neotin.M
+
+Fuel Tank Capacity: 70 L
+
+Fuel Type: Petrol
+
+Seats : 5
+
+The Number Of Cylinders: 6
+
+Bag Back: 520 L

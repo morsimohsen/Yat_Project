@@ -1,0 +1,29 @@
+Price: 750,000 EP
+
+Model: Q3 (1.4 A/T H/L)
+
+Type Of Car: Audi
+
+Make: itali
+
+Year: 2020
+
+Engine power: 150 horse
+
+Engine Capacity: 1395 CC
+
+Transmission type: automatic
+
+Maximum Speed: 211 Km/h
+
+Maximum Torque: 250 Neotin.M
+
+Fuel Tank Capacity: 54 L
+
+Fuel Type: Petrol
+
+Seats : 5
+
+The Number Of Cylinders: 4
+
+Bag Back: 530 L

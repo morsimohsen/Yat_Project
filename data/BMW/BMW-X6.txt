@@ -1,0 +1,29 @@
+Price: 1,725,000 EP
+
+Model: X6 (4.4 F/O A/T M-Sport)
+
+Type Of Car: BMW
+
+Make: itali
+
+Year: 2020
+
+Engine power: 450 horse
+
+Engine Capacity: 4400 CC
+
+Transmission type: Automatic
+
+Maximum Speed: 250 Km/h
+
+Maximum Torque: 650 Neotin.M
+
+Fuel Tank Capacity: 85 L
+
+Fuel Type: Petrol
+
+Seats : 5
+
+The Number Of Cylinders: 8
+
+Bag Back: 580 L
