@@ -1,0 +1,157 @@
+/*Button */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000px;
+}
+:root{
+    --fc : rgb(26, 23, 151);
+    --sc : rgb(184, 21, 21);
+}
+@keyframes bganim {
+    from {background-position: left;}
+    to {background-position: right;}
+}
+/* Nav */
+.custom-nav{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    padding:.5rem 0rem;
+    z-index: 9999;
+    transition: all .5s ease-in;
+    background-color: transparent;
+
+}
+
+.custom-nav .navbar > a{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.custom-nav .navbar > a span ,.welcome-caption h2 span{
+    color: var(--sc);
+}
+.custom-nav::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    color: white;
+    opacity: .1;
+    height: 2px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+}
+.navbar-collapse .navbar-nav .nav-item >a{
+    color: white;
+    font-size: 18px;
+    opacity: .9;
+    font-weight: 500;
+    transition: color .4s;
+}
+
+.navbar-collapse .navbar-nav .nav-item >a:hover{
+    color: rgb(184, 21, 21) !important;
+}
+.logo{
+    width: 50%;
+    height: 50%;
+    vertical-align: middle;
+    display: block;
+    /* margin-left: 50px; */
+}
+.btn-st {
+    background-color:transparent;
+    color: whitesmoke;
+    border: 1 solid whitesmoke;
+}
+.btn-st:hover {
+    background: linear-gradient(45deg,var(--fc) 15%, #2e69b8 65%);
+    color: whitesmoke;
+}
+.btn-st-scroll {
+    background-color:var(--fc);
+    color: whitesmoke;
+    border: 0 !important;
+}
+.btn-st-scroll:hover {
+    background: linear-gradient(45deg,var(--sc) 15%, #f0515e 65%);
+    color: whitesmoke;
+}
+
+/* End Nav */
+/* Div Swiper */
+#header{
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.header-caption .caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.header-caption {
+    height: 100%;
+    text-align: center;
+}
+.header-caption .caption > h1{
+    color: white ;
+    opacity: .9;
+    font-size:50px;
+    font-weight: bold;
+    
+}
+.header-caption .caption> span{
+    color: rgb(250, 250, 250);
+    font-weight: 500;
+    display: block;
+    padding-bottom: 10px;
+    font-size: large;
+}
+
+.header-caption .caption .wel{
+    font-size: 40px;
+    color:var(--fc);
+    background: linear-gradient(to right, rgb(30, 2, 151) 20%, #4c98f0 40%, rgb(30, 2, 151) 60%, #61a0e7 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: bganim 1s alternate infinite;
+}
+.header-caption .caption p{
+    color: white;
+    opacity: .9;
+    width: 50%;
+    font-size: 18px;
+    padding:20px 0px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.212);
+}
+
+/* End Swiper */
+
+
+
+/* btn up */
+.btn-up{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    z-index:9999999;
+}
+.btn-up a i {
+    color: white !important;
+}
+/* end of btn up */
