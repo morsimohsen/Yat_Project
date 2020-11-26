@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     
     <link href="css/bootstrap.min.css" rel="stylesheet"> 
-    <link href="css/st.css" rel="stylesheet"> 
+    <link href="css/style.css" rel="stylesheet"> 
     
 </head>
 <body>
@@ -16,10 +16,8 @@
       <nav class="navbar navbar-expand-lg navbar-dark static-top p-3">
         <a class="navbar-brand" href="#">
               <img class="logo" src="images/Logo.png" alt="">
-            </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+        </a>
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -79,6 +77,74 @@
     </div>
     <!-- end of scroll -->
 
+
+
+    <!-- Cars Brand -->
+    <section class="sec-1 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="text">
+            <h1 class="text-center mt-5">Cars Brand</h1>
+          </div>
+         
+         
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 brand-con">
+              <a href=""><img src="images/alfa_romeo.png" alt="Alfa Romeo" class="brand-img">
+              </a>
+              <div class="over"><h3>Alfa Roman</h3></div>
+          </div>
+         
+         
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 brand-con">
+             <a href=""><img src="images/bmw-logo-2020-grey-show.png" alt="BMW" class="brand-img"></a>
+             <div class="over"><h3>BMW</h3></div>
+          </div>
+          
+          
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 brand-con">
+            <a href=""><img src="images/Brilliance-logo-640x435.jpg" alt="Brilliance" class="brand-img"></a>
+            <div class="over"><h3>Brilliance</h3></div>
+
+          </div> 
+          
+          
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 brand-con">
+            <a href=""><img src="images/BYD-logo-2007-640x396.jpg" alt="BYD" class="brand-img"></a>
+            <div class="over"><h3>BYD</h3></div>
+
+          </div>
+         
+         
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 brand-con">
+            <a href=""><img src="images/marchedrs.png" alt="marchedrs" class="brand-img"></a>
+            <div class="over"><h3>Marchedrs</h3></div>
+
+          </div>
+          
+          
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 brand-con">
+            <a href=""><img src="images/Chery-logo-2013-640x346.jpg" alt="Chery" class="brand-img"></a>
+            <div class="over"><h3>Chery</h3></div>
+
+          </div>
+         
+         
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 brand-con">
+             <a href=""><img src="images/Chevrolet.jpg" alt="Chevrolet" class="brand-img"></a>
+             <div class="over"><h3>Chevrolet</h3></div>
+
+          </div>
+          
+          
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 brand-con">
+            <a href=""><img src="images/nissan.png" alt="Nissan" class="brand-img"></a>
+            <div class="over"><h3>Nissan</h3></div>
+
+          </div> 
+        </div>
+      </div>
+    </section>
+    <!-- End Cars Brand -->
     <script src="js/jquery-3.5.1.min.js"></script>
     <!-- <script src="js/popper.min.js"></script> -->
     <script src="js/bootstrap.min.js"></script>

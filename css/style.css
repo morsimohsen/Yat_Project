@@ -155,3 +155,52 @@ body {
     color: white !important;
 }
 /* end of btn up */
+
+
+/* Cars Brand */
+.sec-1 .row .text{
+    width: 100%;
+    margin: 100px;
+}
+.sec-1 .row .brand-con {
+    position: relative;
+    width: 100%;
+    margin-bottom: 180px;
+    transition: all ease-in-out;
+}
+.sec-1 .row .brand-img {
+    height: 100%;
+    width: 100%;
+object-fit: contain;
+}
+
+.sec-1 .row .brand-con .over {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.sec-1 .row .brand-con h3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.sec-1 .row .brand-con:hover .over {
+    background-color: rgba(0, 0, 0, 0.603);
+    color: whitesmoke;
+    cursor: pointer;
+    height: 100%;
+}
+
+/* End Cars Brand */
