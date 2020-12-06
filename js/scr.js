@@ -19,7 +19,7 @@ $(function() {
         $(".navbar-collapse .navbar-nav .nav-item >a").css("color", "white");
         $(".custom-nav").css('box-shadow', 'none');
         $(".btn-st").removeClass("btn-st-scroll");
-    
+        
     }
     
     function scrollAny() {
@@ -28,6 +28,7 @@ $(function() {
         $(".navbar-collapse .navbar-nav .nav-item >a").css("color", "black");
         $(".custom-nav").css('box-shadow', '0 1px 8px 3px rgba(0, 0, 0, 0.5)');
         $(".btn-st").addClass("btn-st-scroll");
+
     }
     
     

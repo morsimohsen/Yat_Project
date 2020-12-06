@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MotorKo</title>
+    <link rel="icon" href="images/Logo.png" >
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -25,7 +26,7 @@
     <Div class="container-fluid back"> 
       <nav class="navbar navbar-expand-lg navbar-dark static-top p-3">
         <a class="navbar-brand" href="#">
-              <img class="logo" src="images/Logo.png" alt="">
+              <img class="logo " src="images/Logo.png" alt="">
         </a>
         
         <button class="navbar-toggler btn-tog" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

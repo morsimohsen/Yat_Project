@@ -21,7 +21,7 @@ body {
     position: fixed;
     left: 0px;
     right: 0px;
-    width: 100%;
+    width: 100%!important;
     padding:.5rem 0rem;
     z-index: 9999;
     transition: all .5s ease-in;
