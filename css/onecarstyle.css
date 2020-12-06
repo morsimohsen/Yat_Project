@@ -1,0 +1,90 @@
+:root{
+    --fc : rgb(26, 23, 151);
+    --sc : rgb(184, 21, 21);
+}
+body{
+    height: 4000px;
+    background-color: #FFF;
+   
+}
+/* =========================== top-of-page ======================== */
+.top-of-page{
+    padding-top: 250px;
+    background-image: url(https://elmasria-auto.com/files/53382_1558949847.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.top-of-page .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.top-of-page-font-size{
+    font-size: 40px;
+    font-weight: bold;
+}
+.list-colors{
+    color: #FFF;
+}
+/* =========================== swiper ======================== */
+.first-swiper{
+    position: relative;
+    height: 600px;
+    width: 100%;
+  }
+
+  .first-swiper{
+    background: transparent;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  .first-swiper .swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .first-swiper .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .first-swiper .gallery-top {
+    height: 80%;
+    width: 100%;
+  }
+
+  .first-swiper .gallery-thumbs {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .first-swiper .gallery-thumbs .swiper-slide {
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .first-swiper .gallery-thumbs .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+  .special-arrows{
+      color: Var(--fc)!important;
+      transition: all 0.3s;
+  }
+  .special-arrows:hover{
+      color: var(--sc)!important;
+  }
+  .swiper-back-ground{
+      background-size: contain!important;
+      background-repeat: no-repeat;
+      overflow: hidden;
+  }
