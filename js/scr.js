@@ -49,7 +49,7 @@ $(function() {
     
     $(".btn-up").click(()=> {
     
-        $("html").animate({ scrollTop: '0' }, 1200);
+        $("html").animate({ scrollTop: '0' }, 1000);
     
     });
     

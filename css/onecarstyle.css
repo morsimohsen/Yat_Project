@@ -88,3 +88,18 @@ body{
       background-repeat: no-repeat;
       overflow: hidden;
   }
+  .carinfo-icon{
+      font-size: 30px;
+      color: #ccc;
+  }
+  .data-size{
+      font-size: 17px;
+      color: #333!important;
+  }
+  .yearsize{
+      font-size: 11px!important;
+  }
+  .table-icon-color{
+      color: var(--fc)!important;
+      
+  }

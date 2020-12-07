@@ -117,7 +117,7 @@
 </section>
 <!-- ================================ start swiper =================================== -->
 <section class="py-5 overflow-hidden">
-    <div class="container py-5">
+    <div class="container py-5 border-bottom">
         <div class="row py-5">
             <div class="col col-lg-12 col-sm-12">
                 <div class="first-swiper">
@@ -146,6 +146,149 @@
             <div class="col col-lg-12 col-sm-12 px-3 pt-5">
             <button type="button" class="btn btn-st-scroll btn-lg btn-block mt-5">comparison</button>
             </div>
+        </div>
+        <div class="row">
+            <div class="col col-lg-6  border text-center py-3">
+                <i class="far fa-calendar-alt carinfo-icon"></i>
+                <p class="text-body pt-3 data-size">2020</p>
+                <p class="text-primary yearsize">Reg.Year</p>
+            </div>
+            <div class="col col-lg-6  border text-center py-3">
+                <i class="fa fa-cogs carinfo-icon"></i>
+                <p class="text-body pt-3 data-size">BMW</p>
+                <p class="text-primary yearsize">Reg.Year</p>
+            </div>
+        </div>
+        <div class="row py-5">
+                <table class="table border">
+                <thead class="thead-light">
+                    <tr>
+                    <th scope="col" colspan="2">BMW 2 SERIES, 218 EXCLUSIVE 7SETS SPECIFICATIONS</th>
+                    
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td class="border">Automatic Transmission</td>
+                    <td class="border">
+                        <i class="fas fa-check table-icon-color"></i> </td>
+                   
+                    </tr>
+                    <tr>
+                    <td class="border">Air Condition</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i> </td>
+                   
+                    </tr>
+                    <tr>
+                    <td class="border">Bluetooth</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">CD Player</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Fog Light</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Remote control</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Centeral Lock</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Start Engine</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Doors</td>
+                    <td class="border">5</td>
+                    </tr>
+                    <tr>
+                    <td class="border">Leather Seats</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Air Bag</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Rim</td>
+                    <td class="border">16</td>
+                    </tr>
+                    <tr>
+                    <td class="border">Spare Wheel</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Power Mirrors</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Front Fog Light</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Folding Mirror</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Cruise Control</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Computer Trips</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Multi function steering wheel</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Engine diplasment</td>
+                    <td class="border">	140/4500-6000</td>
+                    </tr>
+                    <tr>
+                    <td class="border">Speakers</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Parking Sensor</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">EBD</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">ABS</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Sunroof</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">Horse power</td>
+                    <td class="border">140</td>
+                    </tr>
+                    <tr>
+                    <td class="border">panoramic roof</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">AUX</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                    <tr>
+                    <td class="border">USB</td>
+                    <td class="border"><i class="fas fa-check table-icon-color"></i></td>
+                    </tr>
+                </tbody>
+        </table>
         </div>
     </div>
 </section>
