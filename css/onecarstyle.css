@@ -7,6 +7,10 @@ body{
     background-color: #FFF;
    
 }
+@keyframes bganim {
+  from {background-position: left;}
+  to {background-position: right;}
+}
 /* =========================== top-of-page ======================== */
 .top-of-page{
     padding-top: 250px;
@@ -103,3 +107,166 @@ body{
       color: var(--fc)!important;
       
   }
+  /* ---------------- Cars Picked for you ---------------- */
+  .image-in-cards{
+
+    height: 220px;
+    
+    object-fit: cover;
+}
+
+  .special-title-of-card{
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .card-price{
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  .card-info{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.7;
+  }
+  .nowraptext{
+    white-space: nowrap!important;
+   
+  }
+  .card{
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s;
+  }
+.card:hover{
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175)!important;
+}
+.new{
+  position: absolute;
+  background-color: var(--fc);
+  padding: 5px 10px;
+  top: 20px;
+  right: 10px;
+  background: linear-gradient(to right, var(--fc) 20%, #175597 40% ,  var(--fc) 60%, #175597 80%);
+  background-size: 200%;
+  animation: bganim 1s alternate infinite;
+  color: #FFF;
+  text-align: center;
+}
+/* ============================ second swiper ========================== */
+.second-swiper{
+  position: relative;
+  height: 100px;
+  background: transparent;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.second-swiper .swiper-container {
+  width: 90%;
+  height: 100%;
+}
+
+.second-swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  overflow: hidden;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  cursor: pointer!important;
+}
+.second-swiper .swiper-slide img{
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+}
+.special-arrows:focus{
+  outline: none;
+  border: none;
+}
+.special-border{
+  border:none!important;
+}
+.popularbrandstext{
+  position: relative;
+}
+.popularbrandstext::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(../images/section.png);
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+   margin-bottom: 35px;
+  margin-top: 0;
+  height: 100px;
+  width: 100%;
+  transform: rotate(90deg);
+}
+.Cars-Picked-for-you-title
+{
+  text-align: center;
+  background-image: url(../images/section.png);
+  background-repeat: no-repeat;
+  background-position: bottom ;
+  padding-bottom: 40px;
+
+ 
+}
+
+@media (max-width: 576px){
+  .special-border{
+    border:none!important;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+.popularbrandstext{
+    border:none!important;
+    text-align: center;
+    background-image: url(../images/section.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 40px;
+    margin-bottom: 35px;
+    margin-top: 0;
+  }
+  .popularbrandstext::before{
+   display: none!important;
+  }
+}
+@media (max-width: 768px){
+  .popularbrandstext::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -80%;
+    background-image: url(../images/section.png);
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+    margin-bottom: 35px;
+    margin-top: 0;
+    height: 100px;
+    width: 200%;
+    transform: rotate(90deg);
+  }
+  
+}
