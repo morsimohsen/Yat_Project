@@ -1,3 +1,8 @@
+/* form */
+.form-con{
+    margin-top: 150px;
+    background-color: rgba(rgba(88, 87, 87, 0.459), rgba(150, 151, 150, 0.486), rgba(109, 109, 112, 0.521), 0.5);
+}
 /*Button */
 *{
     margin: 0;
@@ -86,6 +91,9 @@ body {
     color: whitesmoke;
 }
 
+.btn-span-col{
+background-color: #47a9ff;   
+}
 /* End Nav */
 /* Div Swiper */
 #header{
