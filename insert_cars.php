@@ -75,7 +75,7 @@
 <section>
 <div class="container ">
 <div class="top_of_inser_page">
-
+<h2 class="Cars-Picked-for-you-title mb-5">Add New Car</h2>
 
 
 
@@ -642,8 +642,15 @@
   </fieldset>
   <div class="form-group row">
     <label for="inputnewPrice" class="col-sm-2 col-form-label ">New Price</label>
-    <div class="col-sm-10">
-      <input type="number" class="form-control" id="inputnewPrice" disabled>
+    <div class="col-sm-10 pt-0">
+      <div class="input-group mt-0">
+  <input type="number" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" id="inputnewPrice" disabled>
+  <div class="input-group-append">
+    <span class="input-group-text">EGP</span>
+  </div>
+</div>
+
+
     </div>
   </div>
 
@@ -671,11 +678,133 @@
 <!-- ================================ end form =================================== -->
 
 
+<!-- ================================ start bigFooter =========================== -->
+<section class="fifth-background py-4 overflow-hidden">
+        <div class="container py-4">
+            <div class="row py-4 responsive-big-footer">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h1 class="bigFooter-logo"> Motorko </h1>
+                    <p class="text-white-50 mt-4 footer-paragraph pb-3">Authentic and innovative.<br> Built to the smallest detail<br> with a focus on usability<br> and performance.</p>
+                    <ul class="nav justify-content-between flex-nowrap w-50 ml-0 responsive-big-footer-ul">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link Testimonials-card-icons pl-0 bigFooter-logo-icons " href="#">
+                                <i class="fab fa-instagram "></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link Testimonials-card-icons bigFooter-logo-icons " href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 pt-1">
+                    <h4 class="light-color mb-4">Get in Touch</h4>
+                    <ul class="nav flex-column  ml-0 mb-2 pt-3 responsive-big-footer-ul">
+                        <li class="nav-item bigFooter-special-list responsive-big-footer-ul-2">
+                            <a class="nav-link  pl-0 bigFooter-logo-icons d-flex text-white-50 bigFooter-special-list" href="#">
+                                <i class="fas fa-phone bigFooter-logo-icons2 mr-2"></i>
+                                <p class="ml-2 bigFooter-logo-icons2-text">+20 1115289503</p>
+                            </a>
+                        </li>
+                        <li class="nav-item bigFooter-special-list responsive-big-footer-ul-2">
+                            <a class="nav-link  pl-0 bigFooter-logo-icons d-flex text-white-50 bigFooter-special-list" href="#">
+                                <i class="far fa-envelope bigFooter-logo-icons2 mr-2"></i>
+                                <p class="ml-2 bigFooter-logo-icons2-text">Harry@business.com</p>
+                            </a>
+                        </li>
+                        <li class="nav-item bigFooter-special-list responsive-big-footer-ul-2">
+                            <a class="nav-link  pl-0 bigFooter-logo-icons d-flex text-white-50 bigFooter-special-list" href="#">
+                                <i class="fas fa-map-marker-alt bigFooter-logo-icons2 mr-2"></i>
+                                <p class="ml-2 bigFooter-logo-icons2-text">Cairo, Nile City , floar 12</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="rounded ml-0  my-2 my-sm-0 secondBackGround secondTextColor contact bigFooter-contact-button" type="submit"> <i class="far fa-comment-alt bigFooter-logo-icons2"></i> SEND A MESSAGE</button>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h4 class="light-color mb-4">Our Services</h4>
+                    <ul class="nav flex-column  ml-0 ">
+                        <li class="nav-item bigFooter-special-list responsive-big-footer-ul-2">
+                            <a class="nav-link  pl-0 bigFooter-logo-icons d-flex text-white-50 bigFooter-special-list" href="#">
+
+                                <p class="ml-2 bigFooter-logo-icons2-text">Offers</p>
+                            </a>
+                        </li>
+                        <li class="nav-item bigFooter-special-list responsive-big-footer-ul-2">
+                            <a class="nav-link  pl-0 bigFooter-logo-icons d-flex text-white-50 bigFooter-special-list" href="#">
+                                <p class="ml-2 bigFooter-logo-icons2-text">New Cars</p>
+                            </a>
+                        </li>
+                        <li class="nav-item bigFooter-special-list responsive-big-footer-ul-2">
+                            <a class="nav-link  pl-0 bigFooter-logo-icons d-flex text-white-50 bigFooter-special-list" href="#">
+
+                                <p class="ml-2 bigFooter-logo-icons2-text">Cranes Number</p>
+                            </a>
+                        </li>
+                        <li class="nav-item bigFooter-special-list responsive-big-footer-ul-2">
+                            <a class="nav-link  pl-0 bigFooter-logo-icons d-flex text-white-50 bigFooter-special-list" href="#">
+
+                                <p class="ml-2 bigFooter-logo-icons2-text">The Blog</p>
+                            </a>
+                        </li>
+                        <li class="nav-item bigFooter-special-list responsive-big-footer-ul-2">
+                            <a class="nav-link  pl-0 bigFooter-logo-icons d-flex text-white-50 bigFooter-special-list" href="#">
+
+                                <p class="ml-2 bigFooter-logo-icons2-text">join Us</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h4 class="light-color mb-4">Popular Cars</h4>
+                    <div class="row pl-0 responsive-big-footer-ul-2">
+                        <button class="rounded ml-0 mr-2 my-2 my-sm-0 secondBackGround secondTextColor contact bigFooter-contact-button bigFooter-contact-buttons" type="submit">BMW</button>
+                        <button class="rounded ml-0  my-2 my-sm-0 secondBackGround secondTextColor contact bigFooter-contact-button bigFooter-contact-buttons" type="submit">Mercedes</button>
+                    </div>
+                    <!-- 2 -->
+                    <div class="row pl-0 mt-2 responsive-big-footer-ul-2">
+                        <button class="rounded ml-0 mr-2 my-2 my-sm-0 secondBackGround secondTextColor contact bigFooter-contact-button bigFooter-contact-buttons" type="submit">Jeep</button>
+                        <button class="rounded ml-0  my-2 my-sm-0 secondBackGround secondTextColor contact bigFooter-contact-button bigFooter-contact-buttons" type="submit">Kia</button>
+                    </div>
+                    <!-- 3 -->
+                    <div class="row pl-0 mt-2 responsive-big-footer-ul-2">
+                        <button class="rounded ml-0 mr-2 my-2 my-sm-0 secondBackGround secondTextColor contact bigFooter-contact-button bigFooter-contact-buttons" type="submit">Hyundai</button>
+                        <button class="rounded ml-0  my-2 my-sm-0 secondBackGround secondTextColor contact bigFooter-contact-button bigFooter-contact-buttons" type="submit">mazda</button>
+                    </div>
+                    <!-- 4 -->
+                    <div class="row pl-0 mt-2 responsive-big-footer-ul-2">
+                        <button class="rounded ml-0 mr-2 my-2 my-sm-0 secondBackGround secondTextColor contact bigFooter-contact-button bigFooter-contact-buttons" type="submit">MG</button>
+                        <button class="rounded ml-0  my-2 my-sm-0 secondBackGround secondTextColor contact bigFooter-contact-button bigFooter-contact-buttons" type="submit">mini</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================================ end bigFooter =========================== -->
+    <!-- ================================ start smallFooter =========================== -->
+    <section class="sixth-background py-2 overflow-hidden">
+        <div class="container">
+            <div class="d-flex justify-content-between flex-column flex-md-row">
+                <div class="">
+                    <p class="mt-4 about-us-paragraph smallfooter-p">All You Need At Any Time </p>
+                </div>
+                <div class="">
+                    <p class="mt-4 about-us-paragraph smallfooter-p">&COPY; 2020 Motorko is Proudly Powered by <a href="#" class="mainTextColor smallfooter-link">Codings</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================================ end smallFooter =========================== -->
      <!-- btn for scroll up -->
    <div class="btn-up">
         <a class="btn btn-danger"><i class="fas fa-arrow-circle-up"></i></a>
     </div>
     <!-- end of scroll -->
+ 
     <!--   swiper   -->
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -683,7 +812,6 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/typed.js"></script>
     <script src="js/aos.js"></script>
-    <script src="js/onecar.js"></script>
     <script src="js/addcar.js"></script>
 </body>
 </html>
