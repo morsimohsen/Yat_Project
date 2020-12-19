@@ -48,7 +48,7 @@
                 <a class="nav-link" href="#">Car Reviews <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item mr-4">
-                <a class="nav-link" href="#">Branches <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="https://www.google.com/maps/search/%D8%A7%D9%84%D9%82%D8%B1%D8%B4+%D9%84%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA%E2%80%AD/@30.0947199,31.3587264,14z/data=!3m1!4b1">Branches <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item mr-4">
                 <a class="nav-link" href="#">About US <span class="sr-only">(current)</span></a>
@@ -264,7 +264,7 @@
                 <div class="car-body">
                     <form method="POST" action="#">
                         <!-------------------- container   ------------------------------->
-                        <div class="container2">
+                        <div class="container2 responsive_result">
 
                             <!---------------- type of car ---------------------->
                             <div class="row row-space">
@@ -581,11 +581,40 @@
         </div>
     </div>
 
-    <!---------------------- start of call-us  ----------------------->
-    <section class="call-us">
-        <div class="content col-md-7 text-center">
-            <button class="btn btn-primary"> Contact us </button>
+<!---------------------- start of call-us  ----------------------->
+      <section class="call-us">
+        <div id="popup">
+            <button class="btn btn-primary" id="onclick"> Contact us </button>
         </div>
+
+        <!--Contact Form -->
+        <div id="contactdiv" class="contactdiv">
+            <form class="form" action="#" id="contact">
+                <img src="images/cancel-close-close-button-media-button-quit-x-x-button-icon-645882.png" class="img" id="cancel" />
+                <h3> Contact Us </h3>
+                <hr/><br/>
+                <label>Name: <span>*</span></label>
+                <br/>
+                <input type="text" id="name" placeholder=" Enter Name" /><br/>
+                <br/>
+                <label>Email: <span>*</span></label>
+                <br/>
+                <input type="text" id="email" placeholder=" Enter Email" /><br/>
+                <br/>
+                <label>Contact no: <span>*</span></label>
+                <br/>
+                <input type="text" id="contactno" placeholder="11 digit Mobile no." /><br/>
+                <br/>
+                <label>Message:</label>
+                <br/>
+                <textarea id="message" placeholder="leave a Message"></textarea><br/>
+                <br/>
+                <input type="button" id="send" value="Send" />
+                <input type="button" id="cancel" value="Cancel" />
+                <br/>
+            </form>
+        </div>
+
     </section>
     <!---------------------- end of call-us  ----------------------->
 
@@ -638,7 +667,7 @@
                             </a>
                         </li>
                     </ul>
-                    <button class="rounded ml-0  my-2 my-sm-0 secondBackGround secondTextColor contact bigFooter-contact-button" type="submit"> <i class="far fa-comment-alt bigFooter-logo-icons2"></i> SEND A MESSAGE</button>
+                
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <h4 class="light-color mb-4">Our Services</h4>
@@ -716,6 +745,8 @@
         </div>
     </section>
     <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/contactus.js"></script>
     <!-- <script src="js/popper.min.js"></script> -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/typed.js"></script>

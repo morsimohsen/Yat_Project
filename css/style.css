@@ -1,10 +1,14 @@
 /* form */
-.form-con{
+
+.form-con {
     margin-top: 150px;
     background-color: rgba(rgba(88, 87, 87, 0.459), rgba(150, 151, 150, 0.486), rgba(109, 109, 112, 0.521), 0.5);
 }
+
+
 /*Button */
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,36 +17,47 @@
 body {
     /* height: 2000px; */
 }
-:root{
-    --fc : rgb(26, 23, 151);
-    --sc : rgb(184, 21, 21);
+
+:root {
+    --fc: rgb(26, 23, 151);
+    --sc: rgb(184, 21, 21);
 }
+
 @keyframes bganim {
-    from {background-position: left;}
-    to {background-position: right;}
+    from {
+        background-position: left;
+    }
+    to {
+        background-position: right;
+    }
 }
+
+
 /* Nav */
-.custom-nav{
+
+.custom-nav {
     position: fixed;
     left: 0px;
     right: 0px;
     width: 100%!important;
-    padding:.5rem 0rem;
+    padding: .5rem 0rem;
     z-index: 9999;
     transition: all .5s ease-in;
     background-color: transparent;
-
 }
 
-.custom-nav .navbar > a{
+.custom-nav .navbar>a {
     color: white;
     font-weight: bold;
     font-size: 30px;
 }
-.custom-nav .navbar > a span ,.welcome-caption h2 span{
+
+.custom-nav .navbar>a span,
+.welcome-caption h2 span {
     color: var(--sc);
 }
-.custom-nav::after{
+
+.custom-nav::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -54,7 +69,8 @@ body {
     right: 0px;
     background-color: white;
 }
-.navbar-collapse .navbar-nav .nav-item >a{
+
+.navbar-collapse .navbar-nav .nav-item>a {
     color: white;
     font-size: 18px;
     opacity: .9;
@@ -62,65 +78,78 @@ body {
     transition: color .4s;
 }
 
-.navbar-collapse .navbar-nav .nav-item >a:hover{
+.navbar-collapse .navbar-nav .nav-item>a:hover {
     color: rgb(184, 21, 21) !important;
 }
-.logo{
+
+.logo {
     width: 50%;
     height: 50%;
     vertical-align: middle;
     display: block;
     /* margin-left: 50px; */
 }
+
 .btn-st {
-    background-color:transparent;
+    background-color: transparent;
     color: whitesmoke;
     border: 1 solid whitesmoke;
 }
+
 .btn-st:hover {
-    background: linear-gradient(45deg,var(--fc) 15%, #2e69b8 65%);
-    color: whitesmoke;
-}
-.btn-st-scroll {
-    background-color:var(--fc);
-    color: whitesmoke;
-    border: 0 !important;
-}
-.btn-st-scroll:hover {
-    background: linear-gradient(45deg,var(--sc) 15%, #f0515e 65%);
+    background: linear-gradient(45deg, var(--fc) 15%, #2e69b8 65%);
     color: whitesmoke;
 }
 
-.btn-span-col{
-background-color: #47a9ff;   
+.btn-st-scroll {
+    background-color: var(--fc);
+    color: whitesmoke;
+    border: 0 !important;
 }
+
+.btn-st-scroll:hover {
+    background: linear-gradient(45deg, var(--sc) 15%, #f0515e 65%);
+    color: whitesmoke;
+}
+
+.btn-span-col {
+    background-color: #47a9ff;
+}
+
+
 /* End Nav */
+
+
 /* Div Swiper */
-#header{
+
+#header {
     background-image: url(../images/bg2.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
-.header-caption .caption{
+
+.header-caption .caption {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
 }
+
 .header-caption {
     height: 100%;
     text-align: center;
 }
-.header-caption .caption > h1{
-    color: white ;
+
+.header-caption .caption>h1 {
+    color: white;
     opacity: .9;
-    font-size:50px;
+    font-size: 50px;
     font-weight: bold;
-    
 }
-.header-caption .caption> span{
+
+.header-caption .caption>span {
     color: rgb(250, 250, 250);
     font-weight: 500;
     display: block;
@@ -128,49 +157,56 @@ background-color: #47a9ff;
     font-size: large;
 }
 
-.header-caption .caption .wel{
+.header-caption .caption .wel {
     font-size: 40px;
-    color:var(--fc);
+    color: var(--fc);
     background: linear-gradient(to right, rgb(30, 2, 151) 20%, #4c98f0 40%, rgb(30, 2, 151) 60%, #61a0e7 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200%;
     animation: bganim 1s alternate infinite;
 }
-.header-caption .caption p{
+
+.header-caption .caption p {
     color: white;
     opacity: .9;
     width: 50%;
     font-size: 18px;
-    padding:20px 0px;
+    padding: 20px 0px;
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.212);
 }
 
+
 /* End Swiper */
 
 
-
 /* btn up */
-.btn-up{
+
+.btn-up {
     position: fixed;
     right: 30px;
     bottom: 30px;
     display: none;
-    z-index:9999999;
+    z-index: 9999999;
 }
+
 .btn-up a i {
     color: white !important;
 }
+
+
 /* end of btn up */
 
 
 /* Cars Brand */
-.sec-1 .row .text{
+
+.sec-1 .row .text {
     width: 100%;
     margin: 100px;
 }
-.sec-1 .row .text h1{
+
+.sec-1 .row .text h1 {
     background-image: url("../images/section.png");
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -178,12 +214,14 @@ background-color: #47a9ff;
     margin-bottom: 35px;
     /* margin-top: 0; */
 }
+
 .sec-1 .row .brand-con {
     position: relative;
     width: 100%;
     margin-bottom: 120px;
     transition: all ease-in-out;
 }
+
 .sec-1 .row .brand-img {
     height: 150px;
     width: 150px;
@@ -201,6 +239,7 @@ background-color: #47a9ff;
     height: 0;
     transition: .5s ease;
 }
+
 .sec-1 .row .brand-con h3 {
     color: white;
     font-size: 20px;
@@ -212,12 +251,14 @@ background-color: #47a9ff;
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
 .sec-1 .row .brand-con:hover .over {
     background-color: rgba(0, 0, 0, 0.603);
     color: whitesmoke;
     cursor: pointer;
     height: 100%;
 }
+
 
 /* End Cars Brand */
 
@@ -310,7 +351,7 @@ li a p:hover {
 .contact2:focus {
     outline: none;
 }
- .fifth-background .nav-n {
+.fifth-background .nav-n {
     z-index: 995;
     position: fixed!important;
     top: 0;
@@ -319,7 +360,7 @@ li a p:hover {
 }
 .fifth-background .nav-n button {
     z-index: 995;
-} 
+}
 .responsive-search {
     background: none!important;
     border: none!important;
@@ -335,19 +376,18 @@ li a p:hover {
 }
 
 /* ===========================  #GRID   =========================== */
- .row {
+.row {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
-    display: flex;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     position: relative;
     margin-right: -15px;
     margin-left: -15px;
-} 
+}
 .row-space {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -472,6 +512,7 @@ button {
 .input-group {
     position: relative;
     margin-top: 12px;
+    display: block;
 }
 .label {
     font-size: 18px;
@@ -496,7 +537,7 @@ button {
 /* ==========================  dropdown =============================== */
 .dropdown-select {
     font-family: "Lato", "Arial", "Helvetica Neue", sans-serif;
-    min-width: 185px;
+    min-width: 210px;
     left: 0;
     right: 0;
     top: -webkit-calc(100% + 2px);
@@ -530,11 +571,7 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(#c949fe), to(#47a9ff));
-    background-image: -webkit-linear-gradient(bottom, #c949fe 0%, #47a9ff 100%);
-    background-image: -moz-linear-gradient(bottom, #c949fe 0%, #47a9ff 100%);
-    background-image: -o-linear-gradient(bottom, #c949fe 0%, #47a9ff 100%);
-    background-image: linear-gradient(to top, #c949fe 0%, #47a9ff 100%);
+    background-image: linear-gradient(to top, #0c148dc2 0%, #033968 100%);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -554,22 +591,34 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+@media(max-width:768px) {
+    .responsive_result {
+        display: block;
+        margin: auto!important;
+        grid-template: auto;
+    }
+}
 
 /************* start call-us *************/
-section.call-us {
+.call-us {
     background-image: url("../images/pratik-gupta-WAHFUbmTTzM-unsplash.jpg");
-    height: 600px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
 }
-section.call-us div {
+.call-us div {
     margin: 0 auto;
     padding-top: 230px;
     text-align: center;
 }
-section.call-us button {
+.call-us button {
     text-transform: uppercase;
-    background: linear-gradient(to right, #ee5d60 0%, var(--sc) 40%);
-    padding: 14px 20px;
+    background: linear-gradient(to right, #00ad5f 0%, #00ad5f 40%);
     letter-spacing: 1px;
     margin: 0;
     font-size: 14px;
@@ -577,11 +626,82 @@ section.call-us button {
     border-radius: 10px;
     transition: all 0.3s;
 }
-section.call-us button:hover {
+.call-us button:hover {
     cursor: pointer;
-    background-color: var(--sc);
+    background-color: #048524;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.contactdiv .form {
+    border-radius: 2px;
+    padding: 20px 30px;
+    box-shadow: 0 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 350px;
+    margin: 20px 250px 0 35px;
+    float: left;
+}
+.contactdiv .form label {
+    text-align: left;
+}
+.contactdiv input {
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px;
+}
+.contactdiv input[type=button] {
+    background-color: #123456;
+    border: 1px solid white;
+    font-family: 'Fauna One', serif;
+    border-radius: 8px;
+    font-Weight: bold;
+    font-size: 18px;
+    color: white;
+    width: 49%;
+}
+.contactdiv textarea {
+    width: 100%;
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 5px;
+    resize: none;
+}
+#contactdiv {
+    opacity: 0.92;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: none;
+    z-index: 100;
+}
+#contact {
+    width: 450px;
+    margin: 0px;
+    background-color: white;
+    font-family: 'Fauna One', serif;
+    position: relative;
+    border: 5px solid #123456;
+}
+.contactdiv .img {
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: -35px;
+    margin-right: -37px;
+}
+#contact {
+    left: 50%;
+    top: 50%;
+    margin-left: -210px;
+    margin-top: -255px;
 }
 
 /*================================= end call-us ============================================ */
@@ -614,7 +734,7 @@ section.call-us button:hover {
 }
 .bigFooter-logo {
     font-size: 40px;
-    color:var(--fc);
+    color: var(--fc);
     background: linear-gradient(to right, rgb(30, 2, 151) 20%, #4c98f0 40%, rgb(30, 2, 151) 60%, #61a0e7 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
